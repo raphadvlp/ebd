@@ -39,14 +39,13 @@
 
 function Login() {
     return (
-        <div className="h-dvh flex items-center justify-center bg-gray-900 text-white px-4">
-            <div className="w-full">
+        <div className="h-dvh flex items-center justify-center flex-col bg-gray-900 text-white px-4">
                 <header className="flex flex-col items-center mb-8">
-                    <img src="logo.png" alt="Logo Igreja" className=" object-contain mb-4" />
-                    <h1 className="text-2xl sm:text-3xl font-bold text-center">Escola Bíblica Dominical</h1>
+                    <img src="logo.png" alt="Logo Igreja" className=" object-contain mb-8 w-60 h-60" />
+                    <h1 className="text-2xl sm:text-3xl font-bold text-center mb-4">Escola Bíblica Dominical</h1>
                 </header>
 
-                <form className="flex flex-col gap-5">
+                <form className="flex flex-col gap-5 w-full">
                     <div className="flex flex-col">
                         <label htmlFor="usuarioField">Usuário</label>
                         <input
@@ -79,7 +78,6 @@ function Login() {
                     Assembléia de Deus São João de Meriti
                 </div>
             </div>
-        </div>
     );
 }
 
