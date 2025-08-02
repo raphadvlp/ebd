@@ -3,23 +3,31 @@ import { Link } from 'react-router-dom';
 function NavBar() {
     return(
         <>
-            <nav className="">
-                <Link to="/" className="">
-                    <img src="dashboard.svg" alt="" />
-                    <span>Dashboard</span>
-                </Link>
-                <Link to="/turmas">
-                    <img src="turmas.svg" alt="" />
-                    <span>Turmas</span>
-                </Link>
-                <Link to="/">
-                    <img src="licoes.svg" alt="" />
-                    <span>Lições</span>
-                </Link>
-                <Link to="/">
-                    <img src="sair.svg" alt="" />
-                    <span>Sair</span>
-                </Link>
+            <nav className="w-full flex bg-white text-black justify-between p-2 gap-3">
+                <div className='flex-1/2 bg-amber-600 flex flex-col justify-center items-center w-25 h-25 rounded-md'>
+                    <Link to="/" className="text-center">
+                        <img className='w-20 h-20' src="dashboard.svg" alt="" />
+                        <span>Dashboard</span>
+                    </Link>
+                </div>
+                <div className='flex-1/2 flex flex-col justify-center items-center w-25 h-25 rounded-md'>
+                    <Link to="/turmas" className='text-center'>
+                        <img className='w-20 h-20' src="turmas.svg" alt="" />
+                        <span>Turmas</span>
+                    </Link>
+                </div>
+                <div className='flex-1/2 flex flex-col justify-center items-center w-25 h-25 rounded-md'>
+                    <Link to="/" className="text-center">
+                        <img className='w-20 h-20' src="licoes.svg" alt="" />
+                        <span>Lições</span>
+                    </Link>
+                </div>
+                <div className='flex-1/2 flex flex-col justify-center items-center w-25 h-25 rounded-md'>
+                    <Link to="/login" className="text-center">
+                        <img className='w-20 h-20' src="sair.svg" alt="" />
+                        <span>Sair</span>
+                    </Link>
+                </div>
             </nav>
         </>
     )
