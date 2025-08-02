@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import NavBar from './../../components/NavBar/index';
 
 
+
 // Os cards tem que se tornar links
 
 function Turmas() {
@@ -13,13 +14,11 @@ function Turmas() {
                     
                 </div>
                 <div className="h-96 overflow-y-auto flex flex-col gap-1 pr-3">
-
-                    <Link to="/turma/1">
-                        <div className="flex bg-white justify-between items-center p-2 rounded-md">
-                            <div className="text-black">
-                                <span>Adolescentes</span>
-                                <p>09:00h - 10:30h</p>
-                            </div>
+                        <div className="flex justify-between items-center">
+                            <Link className="bg-white w-3/4 rounded-md text-black p-2">
+                                    <span>Adolescentes</span>
+                                    <p>09:00h - 10:30h</p>
+                            </Link>
                             <div className=" flex gap-5">
                                 <div className="">
                                     <Link to="">
@@ -33,154 +32,8 @@ function Turmas() {
                                 </div>
                             </div>
                         </div>
-                    </Link>
 
-                    <Link to="/turma/1">
-                        <div className="flex bg-white justify-between items-center p-2 rounded-md">
-                            <div className="text-black">
-                                <span>Adolescentes</span>
-                                <p>09:00h - 10:30h</p>
-                            </div>
-                            <div className=" flex gap-5">
-                                <div className="">
-                                    <Link to="">
-                                        <img className='w-9' src="edit.svg" alt="" />
-                                    </Link>
-                                </div>
-                                <div className="">
-                                    <Link to="">
-                                        <img className='w-9' src="delete.svg" alt="" />
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                    </Link>
-
-                    <Link to="/turma/1">
-                        <div className="flex bg-white justify-between items-center p-2 rounded-md">
-                            <div className="text-black">
-                                <span>Adolescentes</span>
-                                <p>09:00h - 10:30h</p>
-                            </div>
-                            <div className=" flex gap-5">
-                                <div className="">
-                                    <Link to="">
-                                        <img className='w-9' src="edit.svg" alt="" />
-                                    </Link>
-                                </div>
-                                <div className="">
-                                    <Link to="">
-                                        <img className='w-9' src="delete.svg" alt="" />
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                    </Link>
-
-                    <Link to="/turma/1">
-                        <div className="flex bg-white justify-between items-center p-2 rounded-md">
-                            <div className="text-black">
-                                <span>Adolescentes</span>
-                                <p>09:00h - 10:30h</p>
-                            </div>
-                            <div className=" flex gap-5">
-                                <div className="">
-                                    <Link to="">
-                                        <img className='w-9' src="edit.svg" alt="" />
-                                    </Link>
-                                </div>
-                                <div className="">
-                                    <Link to="">
-                                        <img className='w-9' src="delete.svg" alt="" />
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                    </Link>
-
-                    <Link to="/turma/1">
-                        <div className="flex bg-white justify-between items-center p-2 rounded-md">
-                            <div className="text-black">
-                                <span>Adolescentes</span>
-                                <p>09:00h - 10:30h</p>
-                            </div>
-                            <div className=" flex gap-5">
-                                <div className="">
-                                    <Link to="">
-                                        <img className='w-9' src="edit.svg" alt="" />
-                                    </Link>
-                                </div>
-                                <div className="">
-                                    <Link to="">
-                                        <img className='w-9' src="delete.svg" alt="" />
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                    </Link>
-
-                    <Link to="/turma/1">
-                        <div className="flex bg-white justify-between items-center p-2 rounded-md">
-                            <div className="text-black">
-                                <span>Adolescentes</span>
-                                <p>09:00h - 10:30h</p>
-                            </div>
-                            <div className=" flex gap-5">
-                                <div className="">
-                                    <Link to="">
-                                        <img className='w-9' src="edit.svg" alt="" />
-                                    </Link>
-                                </div>
-                                <div className="">
-                                    <Link to="">
-                                        <img className='w-9' src="delete.svg" alt="" />
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                    </Link>
-
-                    <Link to="/turma/1">
-                        <div className="flex bg-white justify-between items-center p-2 rounded-md">
-                            <div className="text-black">
-                                <span>Adolescentes</span>
-                                <p>09:00h - 10:30h</p>
-                            </div>
-                            <div className=" flex gap-5">
-                                <div className="">
-                                    <Link to="/login">
-                                        <img className='w-9' src="edit.svg" alt="" />
-                                    </Link>
-                                </div>
-                                <div className="">
-                                    <Link to="">
-                                        <img className='w-9' src="delete.svg" alt="" />
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                    </Link>
-
-                    <Link to="/turma/1">
-                        <div className="flex bg-white justify-between items-center p-2 rounded-md">
-                            <div className="text-black">
-                                <span>Adolescentes</span>
-                                <p>09:00h - 10:30h</p>
-                            </div>
-                            <div className=" flex gap-5">
-                                <div className="">
-                                    <Link to="">
-                                        <img className='w-9' src="edit.svg" alt="" />
-                                    </Link>
-                                </div>
-                                <div className="">
-                                    <Link to="">
-                                        <img className='w-9' src="delete.svg" alt="" />
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                    </Link>
+                    
 
                     
                 </div>
