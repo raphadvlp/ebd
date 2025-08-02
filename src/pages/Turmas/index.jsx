@@ -1,130 +1,69 @@
 import NavBar from './../../components/NavBar/index';
-import styles from './style.module.css';
 
 // Os cards tem que se tornar links
 
 function Turmas() {
     return (
         <>
-            <div className={styles.container}>
+            <div className="">
                 <h1>Turmas</h1>
-                <div className={styles.cards}>
+                <div className="">
 
-                    <div className={styles.card}>
-                        <div className={styles.info}>
+                    <div className="">
+                        <div className="">
                             <span>Adolescentes</span>
                             <p>09:00h - 10:30h</p>
                         </div>
-                        <div className={styles.actions}>
-                            <div className={styles.edit}>
+                        <div className="">
+                            <div className="">
                                 <img src="edit.svg" alt="" />
                             </div>
-                            <div className={styles.edit}>
+                            <div className="">
                                 <img src="delete.svg" alt="" />
                             </div>
                         </div>
                     </div>
                                         
-                    <div className={styles.card}>
-                        <div className={styles.info}>
+                    <div className="">
+                        <div className="">
                             <span>Adolescentes</span>
                             <p>09:00h - 10:30h</p>
                         </div>
-                        <div className={styles.actions}>
-                            <div className={styles.edit}>
+                        <div className="">
+                            <div className="">
                                 <img src="edit.svg" alt="" />
                             </div>
-                            <div className={styles.edit}>
+                            <div className="">
                                 <img src="delete.svg" alt="" />
                             </div>
                         </div>
                     </div>
                                         
-                    <div className={styles.card}>
-                        <div className={styles.info}>
+                    <div className="">
+                        <div className="">
                             <span>Adolescentes</span>
                             <p>09:00h - 10:30h</p>
                         </div>
-                        <div className={styles.actions}>
-                            <div className={styles.edit}>
+                        <div className="">
+                            <div className="">
                                 <img src="edit.svg" alt="" />
                             </div>
-                            <div className={styles.edit}>
+                            <div className="">
                                 <img src="delete.svg" alt="" />
                             </div>
                         </div>
                     </div>
                                         
-                    <div className={styles.card}>
-                        <div className={styles.info}>
+                    <div className="">
+                        <div className="">
                             <span>Adolescentes</span>
                             <p>09:00h - 10:30h</p>
                         </div>
-                        <div className={styles.actions}>
-                            <div className={styles.edit}>
+                        <div className="">
+                            <div className="">
                                 <img src="edit.svg" alt="" />
                             </div>
-                            <div className={styles.edit}>
-                                <img src="delete.svg" alt="" />
-                            </div>
-                        </div>
-                    </div>
-                                        
-                    <div className={styles.card}>
-                        <div className={styles.info}>
-                            <span>Adolescentes</span>
-                            <p>09:00h - 10:30h</p>
-                        </div>
-                        <div className={styles.actions}>
-                            <div className={styles.edit}>
-                                <img src="edit.svg" alt="" />
-                            </div>
-                            <div className={styles.edit}>
-                                <img src="delete.svg" alt="" />
-                            </div>
-                        </div>
-                    </div>
-                                        
-                    <div className={styles.card}>
-                        <div className={styles.info}>
-                            <span>Adolescentes</span>
-                            <p>09:00h - 10:30h</p>
-                        </div>
-                        <div className={styles.actions}>
-                            <div className={styles.edit}>
-                                <img src="edit.svg" alt="" />
-                            </div>
-                            <div className={styles.edit}>
-                                <img src="delete.svg" alt="" />
-                            </div>
-                        </div>
-                    </div>
-                                        
-                    <div className={styles.card}>
-                        <div className={styles.info}>
-                            <span>Adolescentes</span>
-                            <p>09:00h - 10:30h</p>
-                        </div>
-                        <div className={styles.actions}>
-                            <div className={styles.edit}>
-                                <img src="edit.svg" alt="" />
-                            </div>
-                            <div className={styles.edit}>
-                                <img src="delete.svg" alt="" />
-                            </div>
-                        </div>
-                    </div>
-                                        
-                    <div className={styles.card}>
-                        <div className={styles.info}>
-                            <span>Adolescentes</span>
-                            <p>09:00h - 10:30h</p>
-                        </div>
-                        <div className={styles.actions}>
-                            <div className={styles.edit}>
-                                <img src="edit.svg" alt="" />
-                            </div>
-                            <div className={styles.edit}>
+                            <div className="">
                                 <img src="delete.svg" alt="" />
                             </div>
                         </div>

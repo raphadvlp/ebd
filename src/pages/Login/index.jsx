@@ -1,27 +1,31 @@
-import styles from './style.module.css';
+// import styles from './style.module.css';
 
 function Login() {
     return (
-        <>
-            <div className={styles.container}>
-                <header>
+            <div className="w-screen h-screen p-5 bg-gray-900 text-white">
+                <header className="flex flex-col justify-center items-center gap-5">
                     <img src="logo.png" alt="Logo Igreja" />
-                    <span>Escola Bíblica Dominical</span>
+                    <h1 className="text-3xl font-bold">Escola Bíblica Dominical</h1>
                 </header>
-                <form action="">
-                    <input type="text" name="" id="" placeholder='Usuário'/>
-                    <input type="password" name="" id="" placeholder='Senha'/>
+                <form className="flex flex-col gap-5 mt-5 mb-5" action="">
+                    <div className="flex flex-col">
+                        <label htmlFor="usuarioField">Usuário</label>
+                        <input className="bg-gray-700 h-11 rounded-md p-3 outline-yellow-500 w-full text-lg" type="text" name="" id="usuarioField" placeholder='Insira seu usuário'/>
+                    </div>
+                    
+                    <div className="flex flex-col">
+                        <label htmlFor="usuarioField">Senha</label>
+                        <input className="bg-gray-700 h-11 rounded-md p-3 outline-yellow-500 w-full text-lg" type="text" name="" id="usuarioField" placeholder='Insira sua senha'/>
+                    </div>
 
-                    <button type="submit">Entrar</button>
+                    <div className="my-6">
+                        <button className="w-full p-2 rounded-md text-lg font-bold bg-amber-600" type="submit">Entrar</button>
+                    </div>
                 </form>
-                <div className={styles.subtitle}>
+                <div className="w-full text-center">
                     <span>Assembléia de Deus São João de Meriti</span>
                 </div>
             </div>
-            <footer>
-                <span>DreamVia - Desenvolvido por Raphael Rodrigues</span>
-            </footer>
-        </>
     )
 }
 

@@ -1,11 +1,10 @@
 import { Link } from 'react-router-dom';
-import styles from './style.module.css';
 
 function NavBar() {
     return(
         <>
-            <nav className={styles.navbar}>
-                <Link to="/" className={styles.active}>
+            <nav className="">
+                <Link to="/" className="">
                     <img src="dashboard.svg" alt="" />
                     <span>Dashboard</span>
                 </Link>
