@@ -95,41 +95,9 @@ function Dashboard() {
                             <span>Professores</span>
                             <p className='font-bold text-3xl'>20</p>
                         </div>
-                        <div className="text-lg w-full h-30 bg-white text-black shadow-md shadow-gray-400 rounded-md flex justify-center items-center flex-col">
-                            <span>Professores</span>
-                            <p className='font-bold text-3xl'>20</p>
-                        </div>
-                        <div className="text-lg w-full h-30 bg-white text-black shadow-md shadow-gray-400 rounded-md flex justify-center items-center flex-col">
-                            <span>Professores</span>
-                            <p className='font-bold text-3xl'>20</p>
-                        </div>
-                        <div className="text-lg w-full h-30 bg-white text-black shadow-md shadow-gray-400 rounded-md flex justify-center items-center flex-col">
-                            <span>Professores</span>
-                            <p className='font-bold text-3xl'>20</p>
-                        </div>
-                        <div className="text-lg w-full h-30 bg-white text-black shadow-md shadow-gray-400 rounded-md flex justify-center items-center flex-col">
-                            <span>Professores</span>
-                            <p className='font-bold text-3xl'>20</p>
-                        </div>
-                        <div className="text-lg w-full h-30 bg-white text-black shadow-md shadow-gray-400 rounded-md flex justify-center items-center flex-col">
-                            <span>Professores</span>
-                            <p className='font-bold text-3xl'>20</p>
-                        </div>
-                        <div className="text-lg w-full h-30 bg-white text-black shadow-md shadow-gray-400 rounded-md flex justify-center items-center flex-col">
-                            <span>Professores</span>
-                            <p className='font-bold text-3xl'>20</p>
-                        </div>
-                        <div className="text-lg w-full h-30 bg-white text-black shadow-md shadow-gray-400 rounded-md flex justify-center items-center flex-col">
-                            <span>Professores</span>
-                            <p className='font-bold text-3xl'>20</p>
-                        </div>
-                        <div className="text-lg w-full h-30 bg-white text-black shadow-md shadow-gray-400 rounded-md flex justify-center items-center flex-col">
-                            <span>Professores</span>
-                            <p className='font-bold text-3xl'>20</p>
-                        </div>
                     </div>
-                    <div className="bg-yellow-300 w-full h-8 rounded-sm flex justify-center items-center mb-8">
-                        <span className='text-black font-bold'>Live da Semana</span>
+                    <div className="bg-yellow-300 w-full h-10 rounded-sm flex justify-center items-center mb-8">
+                        <span className='text-black font-bold text-2xl'>Live da Semana</span>
                     </div>
                     <div className="w-full bg-white flex justify-center items-center h-30 p-5 rounded-sm">
                         <p className='text-black text-center'>Algumas informações essenciais para o funcionamento da escola bíblica</p>
