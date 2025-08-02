@@ -2,7 +2,8 @@
 
 function Login() {
     return (
-            <div className="w-screen h-full p-5 bg-gray-900 text-white">
+            <div className="w-screen h-screen p-5 bg-gray-900 text-white">
+                <div className="h-full">
                 <header className="flex flex-col justify-center items-center gap-5">
                     <img src="logo.png" alt="Logo Igreja" />
                     <h1 className="text-3xl font-bold">Escola Bíblica Dominical</h1>
@@ -24,6 +25,7 @@ function Login() {
                 </form>
                 <div className="w-full text-center">
                     <span>Assembléia de Deus São João de Meriti</span>
+                </div>
                 </div>
             </div>
     )
