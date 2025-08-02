@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Login from "./pages/Login";
-import Dashboard from "./pages/dashboard";
+import Dashboard from "./pages/Dashboard";
 import Turmas from "./pages/Turmas";
 
 function RoutesApp() {
