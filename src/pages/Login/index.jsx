@@ -2,7 +2,7 @@
 
 function Login() {
     return (
-            <div className="w-screen h-screen p-5 bg-gray-900 text-white">
+            <div className="w-screen h-screen p-5 bg-gray-900 text-white flex flex-col justify-center">
                 <header className="flex flex-col justify-center items-center">
                     <div>
                         <img src="logo.png" alt="Logo Igreja" />
@@ -29,7 +29,7 @@ function Login() {
                 <div className="w-full text-center">
                     <span>Assembléia de Deus São João de Meriti</span>
                 </div>
-                </div>
+            </div>
     )
 }
 
