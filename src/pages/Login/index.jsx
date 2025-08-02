@@ -2,7 +2,7 @@
 
 function Login() {
     return (
-            <div className="w-screen h-screen pl-5 pr-5 bg-gray-900 text-white flex flex-col justify-center overflow-hidden">
+            <div className="w-screen h-screen p-5 bg-gray-900 text-white overflow-hidden">
                 <header className="flex flex-col justify-center items-center">
                     <div>
                         <img src="logo.png" alt="Logo Igreja" />
