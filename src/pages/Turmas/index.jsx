@@ -148,7 +148,7 @@ function Turmas() {
                             </div>
                             <div className=" flex gap-5">
                                 <div className="">
-                                    <Link to="">
+                                    <Link to="/login">
                                         <img className='w-9' src="edit.svg" alt="" />
                                     </Link>
                                 </div>
