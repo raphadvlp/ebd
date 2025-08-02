@@ -100,7 +100,7 @@ function Dashboard() {
                         <span className='text-black font-bold text-2xl'>Live da Semana</span>
                     </div>
                     <div className="w-full bg-white flex justify-center items-center h-30 p-5 rounded-sm">
-                        <p className='text-black text-center'>Algumas informações essenciais para o funcionamento da escola bíblica</p>
+                        <p className='text-black text-center text-lg'>Algumas informações essenciais para o funcionamento da escola bíblica</p>
                     </div>
                 </div>
             </div>
