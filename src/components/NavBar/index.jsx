@@ -20,7 +20,7 @@ function NavBar() {
                 </div>
 
                 <div className='flex-1/2 flex flex-col justify-center items-center w-20 h-20 rounded-md'>
-                    <Link to="/" className="flex flex-col justify-center items-center">
+                    <Link to="/licoes" className="flex flex-col justify-center items-center">
                         <img className='w-15 h-15' src="licoes.svg" alt="" />
                         <span>Lições</span>
                     </Link>
