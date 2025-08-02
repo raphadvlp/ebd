@@ -15,8 +15,8 @@ function Turmas() {
                 </div>
                 <div className="h-96 overflow-y-auto flex flex-col gap-1 pr-3">
                     
-                        <div className="flex justify-between items-center">
-                            <Link to="/turmas/1" className="bg-white w-3/4 rounded-md text-black p-2">
+                        <div className="flex justify-between items-center bg-white rounded-md">
+                            <Link to="/turmas/1" className=" w-3/4 rounded-md text-black p-2">
                                     <span>Adolescentes</span>
                                     <p>09:00h - 10:30h</p>
                             </Link>
@@ -33,9 +33,9 @@ function Turmas() {
                                 </div>
                             </div>
                         </div>
-
-                        <div className="flex justify-between items-center">
-                            <Link to="/turmas/1" className="bg-white w-3/4 rounded-md text-black p-2">
+                    
+                        <div className="flex justify-between items-center bg-white rounded-md">
+                            <Link to="/turmas/1" className=" w-3/4 rounded-md text-black p-2">
                                     <span>Adolescentes</span>
                                     <p>09:00h - 10:30h</p>
                             </Link>
@@ -52,9 +52,9 @@ function Turmas() {
                                 </div>
                             </div>
                         </div>
-
-                        <div className="flex justify-between items-center">
-                            <Link to="/turmas/1" className="bg-white w-3/4 rounded-md text-black p-2">
+                    
+                        <div className="flex justify-between items-center bg-white rounded-md">
+                            <Link to="/turmas/1" className=" w-3/4 rounded-md text-black p-2">
                                     <span>Adolescentes</span>
                                     <p>09:00h - 10:30h</p>
                             </Link>
@@ -71,9 +71,9 @@ function Turmas() {
                                 </div>
                             </div>
                         </div>
-
-                        <div className="flex justify-between items-center">
-                            <Link to="/turmas/1" className="bg-white w-3/4 rounded-md text-black p-2">
+                    
+                        <div className="flex justify-between items-center bg-white rounded-md">
+                            <Link to="/turmas/1" className=" w-3/4 rounded-md text-black p-2">
                                     <span>Adolescentes</span>
                                     <p>09:00h - 10:30h</p>
                             </Link>
@@ -90,9 +90,9 @@ function Turmas() {
                                 </div>
                             </div>
                         </div>
-
-                        <div className="flex justify-between items-center">
-                            <Link to="/turmas/1" className="bg-white w-3/4 rounded-md text-black p-2">
+                    
+                        <div className="flex justify-between items-center bg-white rounded-md">
+                            <Link to="/turmas/1" className=" w-3/4 rounded-md text-black p-2">
                                     <span>Adolescentes</span>
                                     <p>09:00h - 10:30h</p>
                             </Link>
@@ -109,9 +109,9 @@ function Turmas() {
                                 </div>
                             </div>
                         </div>
-
-                        <div className="flex justify-between items-center">
-                            <Link to="/turmas/1" className="bg-white w-3/4 rounded-md text-black p-2">
+                    
+                        <div className="flex justify-between items-center bg-white rounded-md">
+                            <Link to="/turmas/1" className=" w-3/4 rounded-md text-black p-2">
                                     <span>Adolescentes</span>
                                     <p>09:00h - 10:30h</p>
                             </Link>
@@ -128,9 +128,9 @@ function Turmas() {
                                 </div>
                             </div>
                         </div>
-
-                        <div className="flex justify-between items-center">
-                            <Link to="/turmas/1" className="bg-white w-3/4 rounded-md text-black p-2">
+                    
+                        <div className="flex justify-between items-center bg-white rounded-md">
+                            <Link to="/turmas/1" className=" w-3/4 rounded-md text-black p-2">
                                     <span>Adolescentes</span>
                                     <p>09:00h - 10:30h</p>
                             </Link>
@@ -147,9 +147,9 @@ function Turmas() {
                                 </div>
                             </div>
                         </div>
-
-                        <div className="flex justify-between items-center">
-                            <Link to="/turmas/1" className="bg-white w-3/4 rounded-md text-black p-2">
+                    
+                        <div className="flex justify-between items-center bg-white rounded-md">
+                            <Link to="/turmas/1" className=" w-3/4 rounded-md text-black p-2">
                                     <span>Adolescentes</span>
                                     <p>09:00h - 10:30h</p>
                             </Link>
@@ -166,26 +166,6 @@ function Turmas() {
                                 </div>
                             </div>
                         </div>
-
-                        <div className="flex justify-between items-center">
-                            <Link to="/turmas/1" className="bg-white w-3/4 rounded-md text-black p-2">
-                                    <span>Adolescentes</span>
-                                    <p>09:00h - 10:30h</p>
-                            </Link>
-                            <div className=" flex gap-5">
-                                <div className="">
-                                    <Link to="/login">
-                                        <img className='w-9' src="edit.svg" alt="" />
-                                    </Link>
-                                </div>
-                                <div className="">
-                                    <Link to="">
-                                        <img className='w-9' src="delete.svg" alt="" />
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-
                     
 
                     
