@@ -72,7 +72,7 @@ function Dashboard() {
 
     return (
         <>
-            <div className="min-h-screen flex flex-col pb-24"> {/* Espaço para NavBar não sobrepor conteúdo */}
+            <div className="min-h-screen flex flex-col pb-24 mb-10"> {/* Espaço para NavBar não sobrepor conteúdo */}
                 <div className="container w-full mx-auto flex flex-col items-center p-5 flex-grow">
                     <div className='text-3xl font-bold mb-15'>
                         <h1>Dashboard</h1>
