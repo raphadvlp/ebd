@@ -39,7 +39,7 @@
 
 function Login() {
     return (
-        <div className="min-h-screen flex items-center justify-center bg-gray-900 text-white px-4">
+        <div className="h-dvh flex items-center justify-center bg-gray-900 text-white px-4">
             <div className="w-full max-w-sm">
                 <header className="flex flex-col items-center mb-8">
                     <img src="logo.png" alt="Logo Igreja" className="w-24 h-24 object-contain mb-4" />
